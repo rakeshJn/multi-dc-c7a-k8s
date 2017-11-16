@@ -49,7 +49,7 @@ spec:
             - name: CASSANDRA_ENDPOINT_SNITCH
               value: GossipingPropertyFileSnitch
           volumeMounts:
-            - name: cassandraa-data
+            - name: cassandra-data
               mountPath: /var/lib/cassandra/data
   volumeClaimTemplates:
     - metadata:
