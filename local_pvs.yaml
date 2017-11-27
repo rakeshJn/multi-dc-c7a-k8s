@@ -46,7 +46,7 @@ spec:
   hostPath:
     path: /data/cass/cassandra-data-c
   persistentVolumeReclaimPolicy: Recycle
-  ---
+---
 apiVersion: v1
 kind: PersistentVolume
 metadata:
